@@ -1,8 +1,10 @@
-// import { useState,useE
-//  } from "react";
+
 import React from "react";
 import pic from "./pic .jpg";
 import {Container,Row,Col} from "react-bootstrap";
+import Typewriter from "typewriter-effect";
+import { AiOutlineArrowDown } from 'react-icons/ai';
+
 
 export default function Home(){
 
@@ -15,13 +17,27 @@ export default function Home(){
             <Container >
       <Row>
         <Col>
-        <span className="tagline">Welcome to my Portfolio</span>
-      
-      <h1>
-        <span>{"I'm Priyadarshani Kalbandhe"}</span></h1>
-        <h1>Front-End Developer</h1>
+        <h1 className="tagline">Welcome to my Portfolio</h1>
         <br></br>
-        <button   className="about">About me</button>
+        
+      <h1 className="nametitle">
+       I'm Priyadarshani </h1>
+ 
+     <div className="animation">
+      <Typewriter className="font"
+       options={{
+        autoStart:true,
+        loop:true,
+        delay:60,
+        strings:[
+          "Front-End Developer",
+          "Designer",
+          "Coder"
+        ],
+       }}
+      />
+     </div>
+        <button   className="about">About me <AiOutlineArrowDown /></button>
         </Col>
        
         <Col>

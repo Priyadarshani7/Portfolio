@@ -1,4 +1,7 @@
-.App {
+
+  @import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&family=Poppins:ital,wght@0,200;0,300;0,500;0,600;0,700;0,800;1,400&display=swap');
+
+/* .App {
   text-align: center;
 }
 
@@ -36,62 +39,8 @@
     transform: rotate(360deg);
   }
 } 
+ */
 
-
-/* *{
-  padding: 0;
-  margin: 0;
-box-sizing: border-box;
-
-}
-header{
- display: flex;
- align-items: center; 
- justify-content: space-between;
- height: 80px;
- padding: 0 2rem;
-}
-nav a{
-  margin: 0 2rem;
-text-decoration: none;
-
-}
-nav a:hover{
-  color: aqua;
-}
-header .nav-btn{
-  padding: 5px;
-  cursor: pointer;
-  outline: none;
-  border: none;
-  background: transparent;
-  visibility: hidden;
-  opacity: 0;
-} @media only screen and (max-width:1024px){
-  header .nav-btn{
-    visibility: visible;
-    opacity: 1;
-  }
-
-
- header nav {
-  position: fixed;
-  top:0;
-  left: 0;
-  height: 100%;
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  gap: 1.5rem;
-  transition: 1s;
-  transform: translate(-100vh);
-}
-header .responsive_nav{
-  transform: none;
-}
-} */
 /* css for navbar */
  *{
   margin: 0;
@@ -99,12 +48,13 @@ header .responsive_nav{
   box-sizing: border-box;
  }
  h3{
-  font-size: 50px;
+  font-size: 30px;
  position: absolute;
  top: 10px;
  left: 10px;
-
- }
+font-family: 'Poppins' ;
+font-weight: 700;
+}
  body{
   text-align: end;
   font-size: 40px;
@@ -117,41 +67,93 @@ header .responsive_nav{
  top: 10px;
  right: 10px;
 }
-@media only screen and (max-width:400px){
-  h3{
-    font-size: 30px;
-   position: absolute;
-   top: 10px;
-   left: 10px;}
+.logo{
+  height: 50px;
+  margin-bottom: 10px;
+ 
+}
+.n{
+  color: #810CA8;
+  font-family: 'Poppins' ;
+font-weight: 700;
+font-size: 30px;
 }
 
+@media  screen and (max-width:500px){
+  h3{
+    font-size: 30px;
+    margin-bottom: 50px;
+}
+.logo{
+  
+  margin-top: 10px;
+}
+.toggle{
+  height: 1px;
+  width: 1px;
+  margin-bottom: 50px;
+  margin-left: 80px;
+}
+.navbar-toggler-icon{
+  height: 50px;
+width: 50px;
+margin-top: 5px;
 
+
+}
+}
+@media  screen and (max-width:1000px){
+  h3{
+    font-size: 30px;
+    margin-bottom: 50px;
+}
+.logo{
+  
+  margin-top: 10px;
+}
+.toggle{
+  height: 1px;
+  width: 1px;
+  margin-bottom: 50px;
+  margin-left: 80px;
+}
+.navbar-toggler-icon{
+  height: 50px;
+width: 50px;
+margin-top: 5px;
+}
+}
 /* css for home page */
 .section{
-  /* width: 100px;
-   height: 100px;
-   position: absolute; */
-   /* left: 50%;
-   margin-left: -50px;
-   top: 50%;
-   margin-top: -50px;
-  align-content: center; */
-
-
+  margin-top: 150px;
 margin-right: 200px;
 margin-left: 200px;
   justify-content: center;
   align-items: center;
-background-color: plum;
+background-color: #F3CCFF;
   text-align: center; 
   border-radius: 20px;
+  font-family: 'Poppins' ;
+  box-shadow: 20px 20px 20px purple;
 
-/* backdrop-filter:blur(12px);
--webkit-backdrop-filter: blur(12px);  */
  }
-span {
-  font-size: 70px;
-} 
+ .tagline{
+  font-size: 80px;
+font-weight: 600;
+text-shadow: white 10px 0 10px;
+ }
+ .nametitle{
+  font-size: 80px;
+  color: white;
+  font-weight: 500;
+   text-shadow:purple 7px 0px 2px  ; 
+ }
+
+ .Typewriter__wrapper{
+  font-size: 50px;
+ color: black;
+ }
+
 
 img.portfolioimg{
 border-radius: 200px;
@@ -165,41 +167,44 @@ border: 20px solid black;
   border-radius: 200px;
   padding: 15px 32px;
 }
-@media only screen and (max-width:400px){
-  .section{
-    margin-right: 30px;
-margin-left: 60px;
-  justify-content: center;
-  align-items: center;
-background-color: plum;
-  text-align: center; 
-  border-radius: 10px;
 
-/* backdrop-filter:blur(12px);
--webkit-backdrop-filter: blur(12px);  */
- }
-span {
-  font-size: 30px;
+
+
+ @media  screen and (max-width:800px){
+.section{
+  margin-right: 20px;
+margin-left: 20px;
+    box-shadow: 10px 10px 10px purple;
+margin-top: 50px;
+   }
+   .tagline{
+    font-size: 50px;
+  font-weight: 500;
+  
+   }
+   .nametitle{
+    font-size: 40px;
+    text-shadow:purple 4px 0px 2px  ;
+   }
+  
+   .Typewriter__wrapper{
+    font-size: 25px;
+   color: black;
+   }
+ 
+    
+    .about{
+      font-size: 25px;
+      border-radius: 200px;
+      padding: 10px 20px;
+    }
+.portfolioimg{
+  height: 300px;
+}
 } 
 
-img.portfolioimg{
-  height: 150px;
-border-radius: 100px;
-align-items: center;
-border: 10px solid black;
-}
+  
 
-.about{
-  background: black;
-  color: azure;
-  border-radius: 100px;
-  padding: 8px 25px;
-}
-
-
-
-
-}
 /* css for about */
 .image_piyu{
   height: 600px;
@@ -241,4 +246,17 @@ text-align: center;
    border: black solid 2px;
   margin-right: 50px;
 }
+      }
+
+/* css for skills */
+.img{
+  height: 200px;
+}
+
+
+      /* css for footer */
+      .footer{
+        text-align: center;
+        background: white;
+        color:black;
       }
