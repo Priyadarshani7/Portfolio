@@ -15,11 +15,8 @@ function App() {
    <div>
 
    <Navbarr/>
-  
-  
- <Home/>
- <br></br>
-  <br></br>
+   <Home/>
+ 
 
  
   <About/>

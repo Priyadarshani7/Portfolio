@@ -206,16 +206,43 @@ margin-top: 50px;
   
 
 /* css for about */
+.aboutsection{
+  margin-top: 150px;
+}
 .image_piyu{
   height: 600px;
  border-radius: 30px;
- border: black solid 2px;
- 
+ /* border: black solid 2px; */
+ background-color:none;
+  color: white;
+  animation: mymove 3s infinite;
 }
+
+@keyframes mymove {
+  50% {box-shadow: 10px 20px 30px black;}
+}
+
 #abouttagline{
 font-size: 90px;
 text-align: center;
 }
+.me{
+  color: #810CA8;
+}
+.myname{
+  font-size: 70px;
+ 
+}
+.piyu{
+  color: orange;
+}
+#f{
+  color: maroon;
+}
+.blue{
+color: blue;
+}
+
 #gap{
   column-gap: 170px;
 }
@@ -227,27 +254,57 @@ text-align: center;
  margin-right: 10px;
 }
 
-@media only screen and (max-width:400px){
+@media screen and (max-width:500px){
 
-    #abouttagline{
-      font-size: 50px;
-      text-align: center;
-      }
-      #gap{
-        column-gap: 10px;
-      }
-      #abouttext{
-        font-size: 1px;
-        text-align: left;
-      }
+  .aboutsection{
+    margin-top: 100px;
+  }
   .image_piyu{
-    height: 200px;
-   border-radius: 30px;
-   border: black solid 2px;
-  margin-right: 50px;
-}
-      }
+    height: 400px;
+margin-right: 50px;
+  }
+  
+  #abouttagline{
+  font-size: 60px;
+  
+  }
+  
+  .myname{
+    margin-bottom: 20px;
+    font-size: 40px;
+   
+  }
+  
+  #abouttext{
+    text-align: left;
+    font-size: 20px;
+  }
+  #logo{
+   margin-bottom: 20px;
+   margin-right: 10px;
+  }
+} 
+@media screen and (max-width:800px){
 
+  .image_piyu{
+    height: 400px;
+margin-right: 200px;
+  }
+
+
+}  
+@media screen and (max-width:1200px){
+
+  .image_piyu{
+    height: 500px;
+margin-right: 300px;
+  }
+  
+  #abouttext{
+    text-align: left;
+    margin-left: 0px;
+    font-size: 50px;
+}  }
 /* css for skills */
 .img{
   height: 200px;
