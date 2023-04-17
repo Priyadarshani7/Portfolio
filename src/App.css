@@ -47,6 +47,12 @@
   padding: 0;
   box-sizing: border-box;
  }
+@media only screen and (max-width:600){
+*{
+  max-width:100px;
+  margin:0 auto;
+  overflow-x: hidden;
+}}
  h3{
   font-size: 30px;
  position: absolute;
@@ -215,7 +221,7 @@ margin-top: 50px;
 
 /* css for about */
 #about{
-  font-family: ;
+  font-family: 'Poppins' ;
 }
 .aboutsection{
   margin-top: 150px;
@@ -236,13 +242,14 @@ margin-top: 50px;
 #abouttagline{
 font-size: 90px;
 text-align: center;
+font-family: 'Poppins' ;
 }
 .me{
   color: #810CA8;
 }
 .myname{
   font-size: 70px;
- 
+
 }
 .piyu{
   color: orange;
@@ -317,9 +324,58 @@ margin-right: 300px;
     font-size: 50px;
 }  }
 /* css for skills */
-.img{
-  height: 200px;
+.skills-section{
+  margin-top: 150px;
 }
+.titleskill{
+  font-size: 90px;
+text-align: center;
+font-family: 'Poppins' ;
+}
+.skillsection{
+ position: relative;
+ 
+ margin-right: 200px;
+margin-left: 200px;
+ background-color:#FEFF86;
+padding: 10px 20px;
+ box-shadow: 20px 20px 20px purple;
+margin-bottom: 100px;
+ border-radius: 20px;
+  font-family: 'Poppins' ;
+}
+@media screen and (max-width:600px){
+
+  .skills-section{
+    margin-top: 70px;
+  }
+  .titleskill{
+    font-size: 70px;
+  }
+  .skillsection{
+   position: relative;
+   margin-right: 0px;
+  margin-left: 20px;
+  box-shadow: 10px 10px 10px purple;
+  }
+  }
+  @media screen and (max-width:900px){
+
+    .skills-section{
+      margin-top: 60px;
+    }
+    .titleskill{
+      font-size: 70px;
+    }
+    .skillsection{
+     position: relative;
+     margin-right: 30px;
+    margin-left: 30px;
+    box-shadow: 10px 10px 10px purple;
+    }
+    }
+
+    
 
 
       /* css for footer */

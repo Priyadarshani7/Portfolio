@@ -17,7 +17,7 @@ export default function Home(){
             <Container >
       <Row>
         <Col>
-        <h1 className="tagline">Welcome to my Portfolio</h1>
+        <h1 className="tagline">Welcome to My Portfolio</h1>
         <br></br>
         
       <h1 className="nametitle">

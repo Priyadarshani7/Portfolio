@@ -7,9 +7,9 @@ import {Link} from "react-scroll";
 export default function Navbarr(){
  
   return(
-    <Navbar  expand="lg">
+    <Navbar id="static" expand="lg">
   
-      <Container>
+      <Container className="static">
       
         <Navbar.Brand >
           
@@ -21,14 +21,16 @@ export default function Navbarr(){
             <Link to="home"  smooth={true} duration={10} offset={0}className="n" >Home</Link> 
 
             <Link to="about"  smooth={true} duration={10} offset={0}  className="n" >About</Link>
-            <Link className="n" href="#link">Skills</Link>
+            <Link to="skill"  smooth={true} duration={10} offset={0}  className="n">Skills</Link>
             <Link className="n"href="#link">Projects</Link>
             
               
           </Nav>
         </Navbar.Collapse>
       </Container>
+  
     </Navbar>
+  
   );
 }
 

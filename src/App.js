@@ -3,7 +3,7 @@
 import Navbarr from "./Navbarr";
 import Home from "./Home";
 import About from "./About";
-// import Skills from "./Skills";
+import Skills from "./Skills";
 // import Footer from "./Footer";
 import './App.css';
 import { BrowserRouter } from "react-router-dom";
@@ -19,8 +19,8 @@ function App() {
    <Home/>
    <About/>
   
-  {/* <Skills/>
-  <br></br>
+  <Skills/>
+  {/* <br></br>
   <hr></hr>
   <Footer/> */}
 </div>
