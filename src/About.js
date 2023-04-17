@@ -1,9 +1,12 @@
 import piyu from "./piyu.jpg";
 import {Container,Row,Col} from "react-bootstrap";
 import {BsFillPersonFill} from "react-icons/bs";
+
+
 export default function About(){
+  
     return (
-        <div className="aboutsection">
+        <div  className="aboutsection" id="about">
            
         <section >
         
@@ -25,9 +28,8 @@ export default function About(){
        <h4 id="f">Front-End Developer </h4>
        <br></br>
         <h4>Currently, a Second Year Computer Engineering student pursuing B-Tech at Pune University. I am into Web development and Recently, I am learning React js.
-I am also a part of Ui Path Community in my college as Core Team member as well as a part of an online Community named OreoDrioders where I am contributing in design team</h4>
-<h4>As a Learner, I am very passionate about improving my coding skills and developing applications and websites </h4>
-<br></br>
+I am also a part of Ui Path Community in my college as Core Team member as well as a part of an online Community named OreoDrioders where I am contributing in design team.</h4>
+<h4>As a Learner, I am very passionate about improving my coding skills and developing applications and websites. </h4>
 <h5 > <span className="blue">Email :</span> priyadarshanik07@gmail.com</h5>
 <h5 ><span className="blue">Place : </span>Pune,India</h5>
         </Col>

@@ -4,14 +4,14 @@ import pic from "./pic .jpg";
 import {Container,Row,Col} from "react-bootstrap";
 import Typewriter from "typewriter-effect";
 import { AiOutlineArrowDown } from 'react-icons/ai';
+import{Link} from "react-scroll";
 
 
 export default function Home(){
 
 
-
     return (
-        <div className="section">
+        <div id="home" className="section">
         <section >
             <br></br>
             <Container >
@@ -37,7 +37,8 @@ export default function Home(){
        }}
       />
      </div>
-        <button   className="about">About me <AiOutlineArrowDown /></button>
+        <button  
+        className="about"><Link to="about" smooth={true} duration={10} offset={0}>About me <AiOutlineArrowDown /></Link></button>
         </Col>
        
         <Col>

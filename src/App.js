@@ -9,6 +9,7 @@ import './App.css';
 import { BrowserRouter } from "react-router-dom";
 
 
+
 function App() {
  return (
    <BrowserRouter>
@@ -16,11 +17,8 @@ function App() {
 
    <Navbarr/>
    <Home/>
- 
-
- 
-  <About/>
-  <br></br>
+   <About/>
+  
   {/* <Skills/>
   <br></br>
   <hr></hr>
