@@ -26,7 +26,6 @@ export default function Skills(){
         fontColor="black"
         percentage="95 "
         rectBorderRadius="30px"
-        trackPathColor="grey"
         trackBorderColor="black"
         defColor={{
           fair: 'purple',
@@ -45,7 +44,7 @@ export default function Skills(){
      fontColor="black"
      percentage="80 "
      rectBorderRadius="30px"
-     trackPathColor="grey"
+  
      trackBorderColor="black"
      defColor={{
        fair: 'purple',
@@ -64,7 +63,7 @@ export default function Skills(){
         fontColor="black"
         percentage="60 "
         rectBorderRadius="30px"
-        trackPathColor="grey"
+      
         trackBorderColor="black"
         defColor={{
           fair: 'purple',
@@ -83,7 +82,6 @@ export default function Skills(){
     fontColor="black"
     percentage="80 "
     rectBorderRadius="30px"
-    trackPathColor="grey"
     trackBorderColor="black"
     defColor={{
       fair: 'purple',
@@ -102,7 +100,7 @@ export default function Skills(){
         fontColor="black"
         percentage="50 "
         rectBorderRadius="30px"
-        trackPathColor="grey"
+   
         trackBorderColor="black"
         defColor={{
           fair: 'purple',

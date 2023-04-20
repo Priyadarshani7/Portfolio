@@ -22,7 +22,8 @@ export default function Navbarr(){
 
             <Link to="about"  smooth={true} duration={10} offset={0}  className="n" >About</Link>
             <Link to="skill"  smooth={true} duration={10} offset={0}  className="n">Skills</Link>
-            <Link className="n"href="#link">Projects</Link>
+            <Link to="project"  smooth={true} duration={10} offset={0}  className="n">Projects</Link>
+            
             
               
           </Nav>
