@@ -488,10 +488,148 @@ text-decoration: none;
 
 
       /* css for footer */
-      .footer{
-        text-align: center;
-        background: white;
-        color:black;
-        padding: 10px 10px;
-   
+      .footer-section{
+        margin-top: 150px;
+        font-family: 'Poppins' ;
+        
       }
+      .footer{
+      
+        text-align: center;
+       
+     
+        padding: 10px 10px;
+        font-family: 'Poppins' ;
+      }
+      .both{
+        display: flex;
+        gap: 5rem;
+
+      }
+      .copyright{
+        font-size: 20px;
+color: darkblue;
+font-family: 'Poppins' ;
+margin-bottom: 0;
+      }
+      .design{
+        font-size: 25px;
+margin-top: 0.5rem;
+      }
+      .icons{
+        align-items: center;
+        justify-content: center;
+     
+      
+        /* max-width: 1200px; */
+        margin: 0 auto;
+        display: flex;
+        gap: 5rem;
+        
+      }
+      .thankyou{
+        margin: 0 auto;
+        font-size: 25px;
+        align-items: center;
+        text-align: left;
+    color: maroon;
+        font-family: 'Poppins' ;
+      margin-bottom: 0;
+      }
+      
+      .linkedin{
+           border-radius: 50%;
+        border: 1px solid black;
+     
+      }
+   .footer-section .first{
+       
+       
+        border: none;
+        height: 5px;
+     background: black;
+       
+      }
+      .footer-section .second{
+
+    width: 800px;
+        border: none;
+        height: 1px;
+     background: black;
+        margin: 0 auto;
+      
+      }
+      @media screen and (max-width:800px){
+        .footer-section{
+          margin-top: 100px;
+
+          
+        }
+        .footer{
+        
+          text-align: center;
+         
+       
+          padding: 10px 10px;
+          font-family: 'Poppins' ;
+        }
+        .both{
+          display: grid;
+          gap: 2rem;
+  
+        }
+        .copyright{
+          font-size: 20px;
+  color: darkblue;
+  font-family: 'Poppins' ;
+  margin-bottom: 0;
+        }
+        .design{
+          font-size: 25px;
+  margin-top: 0.5rem;
+        }
+        .icons{
+          align-items: center;
+          justify-content: center;
+       
+        
+          /* max-width: 1200px; */
+          margin: 0 auto;
+          display: flex;
+          gap: 1rem;
+          
+        }
+        .thankyou{
+          margin: 0 auto;
+          font-size: 25px;
+          align-items: center;
+          text-align: left;
+      color: maroon;
+          font-family: 'Poppins' ;
+        margin-bottom: 0;
+        }
+        
+        .linkedin{
+             border-radius: 50%;
+          border: 1px solid black;
+       
+        }
+     .footer-section .first{
+         
+         
+          border: none;
+          height: 5px;
+       background: black;
+         
+        }
+        .footer-section .second{
+  
+      width: 200px;
+          border: none;
+          height: 1px;
+       background: black;
+          margin: 0 auto;
+        
+        }
+      }
+      
